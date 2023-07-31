@@ -1,0 +1,39 @@
+<web-app>
+	<servlet>
+	<servlet-name>patient</servlet-name>
+	<servlet-class>com.summitworks.PatientRegister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>patient</servlet-name>
+	<url-pattern>/patient_registration</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>patient1</servlet-name>
+	<servlet-class>com.summitworks.PatientLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>patient1</servlet-name>
+	<url-pattern>/patient_login</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>doctor</servlet-name>
+	<servlet-class>com.summitworks.DoctorRegister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>doctor</servlet-name>
+	<url-pattern>/doctor_registration</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>doctor1</servlet-name>
+	<servlet-class>com.summitworks.DoctorLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>doctor1</servlet-name>
+	<url-pattern>/doctor_login</url-pattern>
+	</servlet-mapping>
+
+</web-app>
